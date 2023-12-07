@@ -1,0 +1,35 @@
+Azermahjoub,  18.05.2022, 14:44:44, a1ff60891b8280e8d4007cecccbb34c0e8a85285
+Korrektur Blatt 1
+
+Aufgabe 3.1
+	Checks Implementation of Constructor of CorticalNeuron: 7/7
+	Checks Implementation of Constructor of Interneuron: 7/7
+	Checks Implementation of Constructor of Photoreceptor: 10/10
+Total points for Aufgabe 3.1: 24/24
+
+Aufgabe 3.2
+	Checks implementation of addSynapse of Photoreceptor: 9/9
+	Checks implementation of addSynapse in Network: 3/3
+	Checks implementation of addSynapse in Network on whether the neurons addSynapse-method was used.: 4/4
+	Checks implementation of the get methods.: 8/8
+Total points for Aufgabe 3.2: 24/24
+
+Aufgabe 3.3
+	Checks implementation of constructor in Network for the correct setup of the neurons array.: 15/15
+	Checks implementation of constructor in Network for the expected exceptions: 8/8
+	Checks if the class variables are initiated in the implementation of constructor in Network, which should always ne done. E.g. receptors is used in the colors-method.: 8/8
+Total points for Aufgabe 3.3: 31/31
+
+Aufgabe 3.4
+	Checks implementation of intergrateSignal in Interneuron: Is the signal transmitted to the next neuron?: 12/12
+	Checks implementation of intergrateSignal in Interneuron: Is the signal evenly distributed between the outgoing synapses?: 9/9
+Total points for Aufgabe 3.4: 21/21
+
+Aufgabe 3.5 (Optional. Does not give points.)
+	Checks implementation of signalprocessing in Network in a simple network.: 0/0
+	  java.lang.AssertionError: This test fails because your method does not produce the right colors. It is likely that you lose information along the way. expected [violet] but found [grey]
+	Checks implementation of signalprocessing in Network in a slightly more complicated network.: 0/0
+	  java.lang.AssertionError: This test fails because your method does not produce the right color. If you used transmit() in your signalprocessing method instead of the intergrateSignal-method: this test fails, because you do not know how many interneurons are inbetween your photoreceptor and your cortical neurons or how they are connected. It is likely that you therefore lose information. That is why transmit() should be called automatically in the integrateSignal methods as it is in the one that was already implemented. expected [violet] but found [grey]
+Total points for Aufgabe 3.5 (Optional. Does not give points.): 0/0
+
+Total points: 100/100

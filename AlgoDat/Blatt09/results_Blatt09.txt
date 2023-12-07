@@ -1,0 +1,25 @@
+odat-sose2022,  11.07.2022, 00:16:48, 545cd2de67013c77a2dbc6f3567af4b9fa4ba3fd
+Korrektur Blatt 9
+
+Aufgabe 3.1
+	Test output of numberOfEdgeDisjointPaths() on medium-sized graphs: 10/10
+	Test output of numberOfEdgeDisjointPaths() on small graphs: 10/10
+Total points for Aufgabe 3.1: 20/20
+
+Aufgabe 3.2
+	Test output of edgeDisjointPaths() on medium-sized graphs: 10/10
+	Test output of edgeDisjointPaths() on small graphs: 10/10
+Total points for Aufgabe 3.2: 20/20
+
+Aufgabe 4.1
+	Test output of isUnique() on medium-sized flowgraphs: 20/20
+	Test output of isUnique() on small flowgraphs: 18/18
+	Test output of isUnique() on a small flowgraph which is not unique due to a second source: 2/2
+Total points for Aufgabe 4.1: 40/40
+
+Aufgabe 4.2
+	Test output of findBottlenecks() on medium-sized flowgraphs: 10/10
+	Test output of findBottlenecks() on small flowgraphs: 10/10
+Total points for Aufgabe 4.2: 20/20
+
+Total points: 100/100

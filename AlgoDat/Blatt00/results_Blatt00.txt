@@ -1,0 +1,8 @@
+odat-sose2022,  30.04.2022, 23:56:33, 3d46d19c7bffde78abab86cec074c6e0284ea335
+Korrektur Blatt 0
+
+Aufgabe 3.6
+	Test, ob Abgaben.txt ist vorhanden: 10/10
+Total points for Aufgabe 3.6: 10/10
+
+Total points: 10/10

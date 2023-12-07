@@ -1,0 +1,22 @@
+odat-sose2022,  20.05.2022, 23:58:34, cb2ee20fc320b8797fd369e4c9a5336178c5a9cd
+Korrektur Blatt 2
+
+Aufgabe 3.1
+	Test convert() with several numbers: 10/10
+	Test basic functionality of convert(): 5/5
+Total points for Aufgabe 3.1: 15/15
+
+Aufgabe 3.2
+	Test output of toString() for several numbers: 5/5
+	Test basic functionality of toString(): 5/5
+	Test functionality of toString() for 0: 5/5
+Total points for Aufgabe 3.2: 15/15
+
+Aufgabe 4.2
+	Test the winner of  playRound() with several sample games: 15/15
+	Test playRound() with several sample games: 20/20
+	Test basic functionality of playRound(): 25/25
+	Test the winner playRound() with some special games: 10/10
+Total points for Aufgabe 4.2: 70/70
+
+Total points: 100/100
