@@ -1,0 +1,85 @@
+{
+    "path": "./",
+    "zipMode": true,
+    "zipExtractPath": "./extracted/",
+    "validation": {
+        "maxFileSize": "10MB",
+        "maxLineLength": 1000,
+        "maxAmountOfLines": 10000
+    },
+    "stack": {
+        "path": "./ploy/",
+        "package": "package.yaml",
+        "stack": "stack.yaml",
+        "packageConfig": {
+            "name": "ploy",
+            "dependencies": ["base >= 4.7 && < 5", "split", "random"],
+            "library": {
+                "sourceDirs": "src",
+                "dependencies": []
+            },
+            "executables": [
+                {
+                    "name": "ploy",
+                    "main": "Main.hs",
+                    "sourceDirs": "app",
+                    "dependencies": ["ploy"]
+                }
+            ],
+            "tests": [
+                {
+                    "name": "validate",
+                    "main": "Spec.hs",
+                    "sourceDirs": "validate",
+                    "dependencies": [
+                        "ploy",
+                        "hspec"
+                    ]
+                }, {
+                    "name": "units",
+                    "main": "Spec.hs",
+                    "sourceDirs": "test",
+                    "dependencies": [
+                        "ploy",
+                        "hspec"
+                    ]
+                }
+            ]
+        }
+    },
+    "compile": {
+        "path": "./ploy/",
+        "timeout": 300000
+    },
+    "test": {
+        "path": "./ploy/",
+        "timeout": 300000,
+        "validation": "validate"
+    },
+    "extended": [
+        {
+            "path": "./ploy/src/",
+            "filename": "./Board.hs",
+            "validation": {
+                "module": {
+                    "names": [
+                        "Board"
+                    ],
+                    "once": "EXACTLY_ONCE"
+                }
+            }
+        },
+        {
+            "path": "./ploy/src/",
+            "filename": "./Ploy.hs",
+            "validation": {
+                "module": {
+                    "names": [
+                        "Ploy"
+                    ],
+                    "once": "EXACTLY_ONCE"
+                }
+           }
+       }
+    ]
+}
